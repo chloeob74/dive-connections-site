@@ -1,35 +1,26 @@
 # Dive Connection - Website (Vite + React + Tailwind v4)
 
-A modern, phone-first redesign for Dive Connections
+A modern, phone-first redesign for **Dive Connections**
 
-** Status (v0.0.1):** local scaffold running. Tailwind v4 configured via '@tailwindcss/vite'. UI currently shows a placeholder: **"Dive Connections - Tailwind OK"**
+** Status (v0.0.2):** local scaffold running. Tailwind v4 configured via '@tailwindcss/vite'. Header + info banner + hero section with local image and `tel:` CTAs are in place.
+
 
 **Repo:** https://github.com/chloeob74/dive-connections-site
 
-Currently, two official plugins are available:
 
 ---
+
 
 ## Stack
 - Vite + React
 - Tailwind CSS v4 ('@tailwindcss/vite')
+
+## Prerequisites
+- Node.js LTS (https://nodejs.org)
+- Git
 
 ## Getting started
 ```bash
 npm install
 npm run dev
 
-
-
-
-
-
-
-
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
